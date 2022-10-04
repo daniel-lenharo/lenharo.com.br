@@ -1,0 +1,151 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Seja bem-vindo!
+    text: É muito bom receber sua visita!
+    button: Nossos Serviços
+    buttonlink: "#services"
+
+  services:
+    title: "Serviços"
+    text: "Nossos Serviços"
+    section: services
+    list:
+      - title: "Consultoria em Tecnlogia da informação"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Hospedagem de Sites"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "Desenvolvimento de programas computacionais"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+      - title: "Treinamento em Informatica"
+        desc: "Your description here, full **Markdown** support"
+        icon: fab fa-markdown
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "Sobre Nós"
+    text: "Um breve relato de quem somos."
+    body: "A Lenharo Tecnologia é uma empresa de Curitiba, fundada em 2019, para Consultoria em TI, Desonvolvimento de Soluções, hospedagens de sites e treinamentos em Informática!"
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Nosso Time!"
+    text: "Somos uma empresa em formação, com apenas um funcinário."
+    subtext: Seja parte do nosso time! Envie seu currículo para contato@lenharo.com.br!
+    section: team
+    people:
+      - name: "Daniel Lenharo de Souza"
+        role: "Analista de Suporte"
+        image: assets/img/team/daniel-lenharo.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://instagram.com/
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+ 
+
+  contact:
+    title: "Entre em Contato"
+    text: "Preencha o formulário ou ligue: (41) 99933-8394"
+    section: contact
+    name: "Nome*"
+    name-validation: "Por Favor, Insira seu nome."
+    email: "Email*"
+    email-validation: "Por Favor, Insira seu email."
+    phone: "Telefone"
+    phone-validation: "Por Favor, Insira seu número de telefone."
+    message: "Mensagem*"
+    message-validation: "Por Favor, Insira uma Mensagem."
+    subject: "Submissao do Formulario"
+    submit: "Enviar Mensagem"
+
+  footer:
+    legal: "Politica de Privacidade"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
