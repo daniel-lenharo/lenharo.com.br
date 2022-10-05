@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Seja bem-vindo!
-    text: É muito bom receber sua visita!
+    text: Lenharo Tecnologia da Informação.
     button: Nossos Serviços
     buttonlink: "#services"
 
