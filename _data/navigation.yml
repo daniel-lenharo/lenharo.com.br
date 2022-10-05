@@ -13,14 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Serviços"
       section: services
-    - title: "Portfolio"
-      section: portfolio
     - title: "Sobre Nós"
       section: about
-    - title: "História"
-      section: timeline
-    - title: "Colaboradores"
-      section: team
     - title: "Contato"
       section: contact
 
